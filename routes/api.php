@@ -7,7 +7,14 @@ use App\Http\Controllers\RoleController;
 use App\Http\Controllers\AlbumController;
 use App\Http\Controllers\SongController;
 use App\Http\Controllers\PlaylistController;
-use App\Models\Playlist;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\PremiumController;
+use App\Http\Controllers\PaypalController;
+use App\Http\Controllers\CreditCardController;
+use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\LikeController;
+use App\Http\Controllers\FollowedController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -26,9 +33,16 @@ use App\Models\Playlist;
 //         Route::post('logout', [PassportAuthController::class, 'logout']);
 //         Route::resource('roles', RoleController::class);
 //         Route::resource('albums', AlbumController::class);
-//         Route::resource('songs', SongController::class);
 //         Route::resource('playlists', PlaylistController::class);
-//         // Route::get('/get/playlists', [PlaylistController::class, 'show']);
+//         Route::resource('songs', SongController::class);
+//         Route::resource('users', UserController::class);
+//         Route::resource('premium', PremiumController::class);
+//         Route::resource('paypals', PaypalController::class);
+//         Route::resource('creditCards', CreditCardController::class);
+//         Route::resource('payments', PaymentController::class);
+//         Route::resource('likes', LikeController::class);
+//         Route::resource('followeds', FollowedController::class);
+        
 
 //     }
 // );
